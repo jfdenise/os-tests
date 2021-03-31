@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+        <groupId>org.wildfly.plugins</groupId>
+        <version>1.0.0.Final</version>
+    <artifactId>jsf-ejb-jpa</artifactId>
+
+    <packaging>war</packaging>
+
+    <name>WildFly Bootable JAR - JSF EJB JPA</name>
+    <description>An example of how to use JSF EJB and JPA layers to build a CRUD application with the Bootable Jar</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>8.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
