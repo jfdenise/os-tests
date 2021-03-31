@@ -10,7 +10,10 @@
 
     <name>WildFly Bootable JAR - JSF EJB JPA</name>
     <description>An example of how to use JSF EJB and JPA layers to build a CRUD application with the Bootable Jar</description>
-
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>jakarta.platform</groupId>
